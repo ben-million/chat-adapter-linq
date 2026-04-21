@@ -33,6 +33,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "prepare": "tsc",
     "prepublishOnly": "bun run build",
     "test": "vitest run",
     "test:watch": "vitest",
